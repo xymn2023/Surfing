@@ -1,5 +1,49 @@
 [
     {
+        "versionName": "v7.2.1",
+        "versionCode": 26111501,
+        "changelog": [
+            "Build Date: 2026-11-15 06:11:24",
+            "",
+            "支持 应用过滤新增「UID 应用断网」（需模块 v7.9.0 及以上）",
+            "",
+            "优化 全局连续曲率圆角",
+            "优化 应用过滤菜单项行为交互",
+            "优化 断网名单保存后立即生效，无需重启模块",
+            "",
+            "修复 连接粉碎动画在硬件位图下崩溃",
+            "修复 概览延迟测速在 DNS 被拒绝时崩溃",
+            "修复 重名节点导致代理页列表崩溃",
+            "修复 部分设备可能导致磁贴服务绑定失败",
+            "修复 配置编辑大文本草稿触发 TransactionTooLarge",
+            "修复 应用过滤在名单文件缺失时误报读取失败",
+            "修复 节点卡片胶囊颜色设置不生效"
+        ],
+        "fileSize": 14024842,
+        "sha256": "0dd0eb86df018d9c446e8804022126cb29c2496dd4b55330cb179f4b505ceb30",
+        "downloadUrl": "https://raw.githubusercontent.com/GitMetaio/Surfing/main/app/version/com.github.surfing/SurfingTile_{VER}_release.apk"
+    },
+    {
+        "versionName": "v7.1.0",
+        "versionCode": 26110501,
+        "changelog": [
+            "Build Date: 2026-11-05 06:27:00",
+            "",
+            "支持 网络活动页按关键字过滤连接",
+            "支持 代理页分组快速选择，标签边缘渐隐",
+            "支持 配置覆写 TUN 堆栈选择 MIPS",
+            "",
+            "修复 控制面板部分设备顶部重复留白",
+            "修复 网络活动页已关闭状态误判",
+            "修复 背景视频抢占音频焦点",
+            "",
+            "移除 模块更新时多余的配置恢复广播"
+        ],
+        "fileSize": 13968375,
+        "sha256": "d1b5bd7502639175e0fd7743dce0602be552f8e6dd0594d1969e9b54413842b1",
+        "downloadUrl": "https://raw.githubusercontent.com/GitMetaio/Surfing/main/app/version/com.github.surfing/SurfingTile_{VER}_release.apk"
+    },
+    {
         "versionName": "v7.0.0",
         "versionCode": 26101301,
         "changelog": [
@@ -7,6 +51,8 @@
             "",
             "支持 自定义配置编辑",
             "支持 连接数可视化面板查看",
+            "",
+            "移除 Xposed 注入功能",
             "",
             "修复已知问题，提升稳定性",
             "",
